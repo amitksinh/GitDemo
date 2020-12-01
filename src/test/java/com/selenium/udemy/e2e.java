@@ -21,6 +21,10 @@ public class e2e {
 		driver.findElement(By.xpath("//*[@id=\"dropdownGroup1\"]/div/ul[1]/li[12]/a")).click();
 		
 		Thread.sleep(2000);
+		System.out.println("1");
+		System.out.println("2");
+		System.out.println("3");
+		
 		
 		driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA']")).click();;
 		driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA']")).click();;
